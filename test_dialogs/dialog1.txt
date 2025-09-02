@@ -1,4 +1,5 @@
-#Person1#: Could you have my car ready at 5:00 please?
-#Person2#: The damage is very serious.
-#Person1#: But I have to use it this afternoon. How about 5: 30?
-#Person2#: Well, I'll do my best. I promise you can take it at 5:15.
+#Person1#: I broke my car and I need repairs?
+#Person2#: What type of damage?
+#Person1#: I hit a tree and broke a headlight.
+#Person2#: Headlight replacement will take about 1 day. You can come today from 15:00 to 18:00.
+#Person1#: Ok, I'll come today at 16:30
