@@ -50,12 +50,14 @@ def toy_reply(turns):
 
 def build_chat_prompt(turns):
     lines = []
-    recent = turns[-8:] if len(turns) > 8 else turns
-    for t in recent:
-        role = t.get("role", "user")
+    for t in (turns[-8:] if len(turns) > 8 else turns):
+        role = t.get("role","user")
         text = (t.get("text") or "").strip().replace("\n", " ")
-        lines.append(f"#Assistant#: {text}" if role == "assistant" else f"#User#: {text}")
-    return "Continue the chat. Respond briefly as #Assistant# to the last #User# message.\n\n" + "\n".join(lines) + "\n#Assistant#:"
+        lines.append(f"#Assistant#: {text}" if role=="assistant" else f"#User#: {text}")
+    return (
+        "Continue this casual conversation. Respond as #Assistant# with one short, helpful sentence.\n\n"
+        + "\n".join(lines) + "\n#Assistant#:"
+    )
 
 def generate_reply(turns, max_new_tokens=96):
     if not model_ready:
