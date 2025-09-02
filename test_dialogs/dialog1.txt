@@ -1,4 +1,0 @@
-#Person1#: Could you have my car ready at 5:00 please?
-#Person2#: The damage is very serious.
-#Person1#: But I have to use it this afternoon. How about 5: 30?
-#Person2#: Well, I'll do my best. I promise you can take it at 5:15.
