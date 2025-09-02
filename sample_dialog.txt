@@ -1,0 +1,2 @@
+#Person1#: Have you considered upgrading your system?
+#Person2#: Yes, but I'm not sure what exactly I would need.
