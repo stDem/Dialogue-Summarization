@@ -1,5 +1,9 @@
 # Dialogue Summarizer — FLAN‑T5 + LoRA (car topics)
 
+<img src="./DialogueSummarizer.gif">
+
+#### This project aims to analyze dialogue both in real time and with dialogue reconstruction from a text file to obtain the main semantic points of the dialogue.
+
 ## Quickstart
 pip install -r requirements.txt
 
