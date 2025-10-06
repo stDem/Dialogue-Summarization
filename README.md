@@ -12,3 +12,8 @@ python train_lora_manual.py   --base_model google/flan-t5-base   --output_dir ar
 
 ### Serve the app
 python app.py --host 127.0.0.1 --port 8000   --base_model google/flan-t5-base   --lora_dir artifacts/flan_t5_base_lora_dialogsum_car
+
+### Additional experiments
+In the following repo there are different jupyter notebooks with methods such as prompt engineering, full-fine tuning, and fine-tuning with LoRA:
+
+https://github.com/stDem/Generative-AI-with-LLMs
